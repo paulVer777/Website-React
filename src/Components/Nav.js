@@ -7,10 +7,6 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
 } from 'reactstrap';
 
 
@@ -37,16 +33,16 @@ class Navi extends React.Component {
                     <NavbarToggler onClick={this.toggle}/>
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
-                            <NavItem className='ml-3'>
+                            <NavItem className='ml-sm-0 ml-md-4 ml-lg-4 ml-xl-4'>
                                 <NavLink exact to={'/'} activeStyle={{color: 'red'}}>Home</NavLink>
                             </NavItem>
-                            <NavItem className='ml-3'>
+                            <NavItem className='ml-sm-0 ml-md-4 ml-lg-4 ml-xl-4'>
                                 <NavLink to={'/about'} activeStyle={{fontWeight: 'bold'}}>About</NavLink>
                             </NavItem>
-                            <NavItem className='ml-3'>
+                            <NavItem className='ml-sm-0 ml-md-4 ml-lg-4 ml-xl-4'>
                                 <NavLink to={'/experience'} activeStyle={{fontWeight: 'bold'}}>Experience</NavLink>
                             </NavItem>
-                            <NavItem className='ml-3'>
+                            <NavItem className='ml-sm-0 ml-md-4 ml-lg-4 ml-xl-4'>
                                 <NavLink to={'/contact'} activeStyle={{fontWeight: 'bold'}}>Contact</NavLink>
                             </NavItem>
                         </Nav>
