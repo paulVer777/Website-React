@@ -1,6 +1,6 @@
 
-<h1>Creating websites using React and bootstrap -in progress</h1>
-<hr>
+<h1>Creating website using React and bootstrap -in progress</h1>
+
 
 
 
